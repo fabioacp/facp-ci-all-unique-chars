@@ -8,12 +8,14 @@ public class AllUniqueChars
 		var input = "abcde";
 		var input2 = "Aa";
 		var input3 = "abcdee";
-		var input4 = "";
+		var input4 = "12344";
+        var input5 = "";
 		
 		Console.WriteLine(HasUniqueChars(input));
 		Console.WriteLine(HasUniqueChars(input2));
 		Console.WriteLine(HasUniqueChars(input3));
 		Console.WriteLine(HasUniqueChars(input4));
+        Console.WriteLine(HasUniqueChars(input5));
 	}
 	
 	public static bool HasUniqueChars(string input)
